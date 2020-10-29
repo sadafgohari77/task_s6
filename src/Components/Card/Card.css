@@ -1,0 +1,8 @@
+.offer-box {
+    border-radius: 10px;
+    width: 38px;
+    height: 19px;
+    place-content: center;
+    background-color: #ee2424;
+    color: white;
+}
