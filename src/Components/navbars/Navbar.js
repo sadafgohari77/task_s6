@@ -5,12 +5,14 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faShoppingCart } from '@fortawesome/free-solid-svg-icons';
 import { faUser } from '@fortawesome/free-solid-svg-icons';
 import { faSearch } from '@fortawesome/free-solid-svg-icons';
+
 const  Navbar = (props) =>{
+    console.log(props.addressimage,"oro navbar")
     return (
       <div class="box no-shadow is-paddingless-bottom">
          <div class="columns">
             <div className="column is-1 padding-top-4px">
-                <img className="logo-size" src={require(props.logo)} alt={require()}/>
+                <img className="logo-size" src={props.addressimage} />
             </div>
             <div className="column is-6 padding-top-4px">
                 <div className="field">

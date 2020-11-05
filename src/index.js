@@ -11,7 +11,7 @@ import Card from "./Components/Card/Card";
 import { products } from '../src/assets/data/products';
 const allProducts = JSON.parse(JSON.stringify(products));
 const offerProductsArray = allProducts.filter(item => item.type== "offerProduscts")
-let  logo = [{addressimage : "../../assets/image/logo/Digikala-logo.png",textimage : "logo Digikala"},];
+let  logo = {addressimage : "../../assets/image/logo/Digikala-logo.png",textimage : "logo Digikala"};
 
 ReactDOM.render(
         <React.StrictMode>
@@ -19,6 +19,10 @@ ReactDOM.render(
             <Menu />
             <BannerHeader />
             <BannerMain />
+            {offerProductsArray.map(item => {
+                    return <Card{...item} />
+                }
+            )}
             <Card{...offerProductsArray} />
         </React.StrictMode>
     ,
