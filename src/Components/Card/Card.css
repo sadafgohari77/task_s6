@@ -6,3 +6,8 @@
     background-color: #ee2424;
     color: white;
 }
+.icon-fast-send{
+    z-index: 1;
+    margin-right: -10px;
+    color: #1c9900;
+}
