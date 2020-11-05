@@ -15,7 +15,8 @@ const  Card = (props) => {
             priceafterdiscount = item.price;
         }
         return (
-            <div className="card is-2">
+            <div className="column is-3">
+             <div className="card ">
                 {
                     (item.addressImage != "") && (item.sendFast == "true") ?
                         <div className="card-image">
@@ -34,22 +35,21 @@ const  Card = (props) => {
                 <div className="content">
                     {
                         (item.name != "") ?
-                            `<div className="space-top-desktop grey-color">
-                                          ${item.name}
+                            <div className="space-top-desktop grey-color">
+                                          {item.name}
                                             <br/>
-                                      </div>` : ""
+                                      </div> : ""
                     }
                     {
                         ((item.discount != 0) && (item.price != "")) ?
-                            ` <div>
+                             <div>
                                          <div className="column is-flex-row-end is-paddingless-right ">
-                                             <span className="dark-grey-color line-through" style="font-size: 11px;">
-                                                 ${item.price}
+                                             <span className="dark-grey-color line-through price" >
+                                                 {item.price}
                                              </span>
                                              <div className="offer-box is-flex half-space-left">
-                                                  <span className="has-text-centered is-flex-row-center has-text-weight-bold"
-                                                         style="font-size: 11px;font-weight: bold;padding-right: 3px;">
-                                                         %${item.discount }
+                                                  <span className="has-text-centered is-flex-row-center has-text-weight-bold discount">
+                                                         %{item.discount }
                                                  </span>
                                              </div>
                                          </div>
@@ -59,23 +59,24 @@ const  Card = (props) => {
                                                    تومان
                                                 </span>
                                           </div>
-                                    </div>` : `
+                                    </div> :
                                     <div className="is-flex-row-end">
                                          <span className="text-h1 has-text-weight-bold half-space-left">
-                                            ${item.price}
+                                            {item.price}
                                          </span>
                                          <span>
                                          تومان
                                          </span>
-                                     </div>`
+                                     </div>
                     }
                     {
                         (item.time != "0") ?
-                            `<div class=" is-flex-row-end is-paddingless-right ">
-                                         <Timer startDate={startDate} />
-                            </div>` : ""
+                            <div class=" is-flex-row-end is-paddingless-right">
+                                         <Timer  startDate={startDate} />
+                            </div> : ""
                     }
                 </div>
+            </div>
             </div>
         )
 }

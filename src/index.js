@@ -19,10 +19,12 @@ ReactDOM.render(
             <Menu />
             <BannerHeader />
             <BannerMain />
-            {offerProductsArray.map(item => {
+            <div className="columns">
+                {offerProductsArray.map(item => {
                     return <Card{...item} />
-                }
-            )}
+                })
+            }
+            </div>
             <Card{...offerProductsArray} />
         </React.StrictMode>
     ,

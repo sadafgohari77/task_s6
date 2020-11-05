@@ -59,19 +59,18 @@ class Timer extends Component {
             return <div className="expired">Expired :(</div>;
         }
         return (
-            <div className="timer">
-
+            <div className="timer is-flex half-padding">
                 <div>
-                    {hours}
-                    <span>:</span>
+                    {seconds}
+                    <span></span>
                 </div>
                 <div>
                     {minutes}
                     <span>:</span>
                 </div>
                 <div>
-                    {seconds}
-                    <span>:</span>
+                    {hours}
+
                 </div>
             </div>
         );
