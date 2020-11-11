@@ -1,0 +1,12 @@
+.size-logo-offer {
+    margin-right: 10px;
+    width: 200px;
+    height: 400px;
+}
+
+.show-all {
+    background-color: transparent;
+    border-color: white;
+    border-bottom-width: 1px;
+    color: white;
+}

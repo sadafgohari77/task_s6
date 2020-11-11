@@ -1,0 +1,88 @@
+.background-color-footer {
+    background-color: rgb(236, 239, 241);
+}
+
+
+@media only screen and (max-width: 768px) {
+    .background-color-footer {
+        background-color:whitesmoke;
+    }
+}
+
+.slicer-footer {
+    border-bottom: 1px solid #d0d0d0 ;
+    padding-bottom: 10px;
+}
+
+.liner{
+    border-top: 1px solid #d0d0d0 ;
+    padding-top: 20px;
+}
+
+.title-footer {
+    font-size: 16px;
+    font-weight: 500;
+    color: #1a5c8e;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.title-footer~div {
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.input, .textarea {
+    width: 100%;
+    height: 40px;
+}
+
+.button-send-email {
+    background-color: #1bbbf5;
+    color: white;
+    height: 40px;
+    width: 60px;
+}
+
+.svg.svg-inline--fa.fa-w-16 {
+    margin: 10px;
+    width: 20px;
+    height: 30px;
+}
+
+.svg.svg-inline--fa.fa-w-14 {
+    margin: 10px;
+    width: 20px;
+    height: 30px;
+}
+
+@media screen and (max-width: 768px){
+    .is-mobile-text-gery{
+        color: #8d939e;
+        cursor: pointer;
+    }
+}
+
+.box-log-app{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.app-logo{
+    padding: 5px 3px;
+    width: 160px;
+    height: 60px;
+}
+
+.Confirmation-email{
+    margin-top: 10px;
+    border-radius: 7px;
+    border: 0;
+    height: 60px;
+    width: 100%;
+    background-color: #00b0ff;
+    font-size: 25px;
+    color: white;
+
+}

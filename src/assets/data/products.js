@@ -1,3 +1,4 @@
+
 export const products =
     [
         {
@@ -8,7 +9,7 @@ export const products =
             "time": "24",
             "addressImage": "99111.jpg",
             "sendFast": "false",
-            "type": "offerProduscts"
+            "type": "offerProducts"
         },
         {
             "id": "99112",
@@ -18,7 +19,7 @@ export const products =
             "time": "24",
             "addressImage": "99112.jpg",
             "sendFast": "false",
-            "type": "offerProduscts"
+            "type": "offerProducts"
         },
         {
             "id": "99113",
@@ -28,7 +29,7 @@ export const products =
             "time": "24",
             "addressImage": "99113.jpg",
             "sendFast": "false",
-            "type": "offerProduscts"
+            "type": "offerProducts"
         },
         {
             "id": "99114",
@@ -38,17 +39,17 @@ export const products =
             "time": "24",
             "addressImage": "99114.jpg",
             "sendFast": "false",
-            "type": "offerProduscts"
+            "type": "offerProducts"
         },
         {
             "id": "9915",
             "name": "جعبه ابزار گلکسی وان مدل TB16",
-            "price": "",
-            "discount": "",
-            "time": "",
+            "price": "122500",
+            "discount": "43",
+            "time": "24",
             "addressImage": "99115.jpg",
             "sendFast": "false",
-            "type": "offerProduscts"
+            "type": "offerProducts"
         },
         {
             "id": "99121",
@@ -154,7 +155,7 @@ export const products =
             "id": "99221",
             "name": "کتاب 1984 اثر جورج اورول نشر شاهدخت پاییز",
             "price": "65000",
-            "discount": "69",
+            "discount": "0",
             "time": "0",
             "addressImage": "99221.jpg",
             "sendFast": "false",
@@ -196,7 +197,7 @@ export const products =
             "price": "11900",
             "discount": "0",
             "time": "0",
-            "addressImage": "99224.jpg",
+            "addressImage": "99225.jpg",
             "sendFast": "false",
             "type": "book"
         },
@@ -208,7 +209,7 @@ export const products =
             "time": "0",
             "addressImage": "99231.jpg",
             "sendFast": "false",
-            "type": "labtops"
+            "type": "laptop"
         },
         {
             "id": "99232",
@@ -218,7 +219,7 @@ export const products =
             "time": "0",
             "addressImage": "99232.jpg",
             "sendFast": "false",
-            "type": "labtops"
+            "type": "laptop"
         },
         {
             "id": "99233",
@@ -228,7 +229,7 @@ export const products =
             "time": "0",
             "addressImage": "99233.jpg",
             "sendFast": "false",
-            "type": "labtops"
+            "type": "laptop"
         },
         {
             "id": "99234",
@@ -238,7 +239,7 @@ export const products =
             "time": "0",
             "addressImage": "99234.jpg",
             "sendFast": "false",
-            "type": "labtops"
+            "type": "laptop"
         },
         {
             "id": "99235",
@@ -248,6 +249,6 @@ export const products =
             "time": "0",
             "addressImage": "99235.jpg",
             "sendFast": "false",
-            "type": "labtops"
+            "type": "laptop"
         }
     ]

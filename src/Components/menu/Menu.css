@@ -1,0 +1,35 @@
+.tabs a:hover {
+    border-bottom-color: #e31111;
+    color: #363636;
+}
+
+.text-size-16-n {
+    font-size: 16px;
+}
+
+a>span {
+    padding-right: 0.5rem
+}
+
+@media only screen and (max-width: 768px) {
+    .slicer-navbar{
+        border-bottom: 1px solid #d0d0d0;
+
+    }
+}
+
+.svg-inline--fa.fa-w-8 {
+    width:1em;
+}
+@media only screen and (max-width: 768px) {
+    .paddingless-top-mobile {
+        padding-top: 0;
+    }
+
+}
+
+@media only screen and (max-width: 1024px) {
+    .text-size-12-n {
+        font-size: 10px;
+    }
+}

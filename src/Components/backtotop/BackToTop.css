@@ -1,0 +1,16 @@
+.back-to-up {
+    justify-content: center;
+    align-items: center;
+    color: #4f4f4f;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+:focus {
+    outline: -webkit-focus-ring-color auto 0;
+}
+
+.slicer-back-to-top {
+    border-bottom: 1px solid #d0d0d0;
+    width: 100%;
+}

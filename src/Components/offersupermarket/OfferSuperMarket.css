@@ -1,0 +1,26 @@
+.size-logo-offer {
+    margin-right: 10px;
+    width: 200px;
+    height: 400px;
+}
+
+.show-all {
+    background-color: transparent;
+    border-color: white;
+    border-bottom-width: 1px;
+    color: white;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    .swiper-container-autoheight, .swiper-container-autoheight .swiper-slide {
+        height: 150px;
+        width:500px;
+    }
+
+    .img-size-slider {
+        width: 250px;
+        height:150px;
+    }
+}

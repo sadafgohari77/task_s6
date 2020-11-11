@@ -24,7 +24,7 @@ class Timer extends Component {
 
     timerInit = () => {
         const { startDate } = this.props;
-        console.log(startDate);
+
         const now = new Date().getTime();
         if (!startDate) {
             this.setState({ expired: true });
@@ -62,7 +62,7 @@ class Timer extends Component {
             <div className="timer is-flex half-padding">
                 <div>
                     {seconds}
-                    <span></span>
+                    <span>:</span>
                 </div>
                 <div>
                     {minutes}
